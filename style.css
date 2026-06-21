@@ -13,6 +13,9 @@ body{
     border-bottom: solid 1px black;
     gap: 10px;
     align-items: center;
+    position: sticky;
+    background-color: white;
+    z-index: 1;
 }
 .navbar__s1__title{
     color: #a435f0;
@@ -30,6 +33,7 @@ body{
     border: none;
     width: 80%;
     font-size: 20px;
+    background-color: transparent;
 }
 .navbar__s2 input:focus{
     outline: none;
